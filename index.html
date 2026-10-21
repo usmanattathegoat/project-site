@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Good buns, crispy fries, and laid-back comfort food in F-10, Islamabad. Meet Bun & Co."
+    />
+    <meta name="theme-color" content="#f7f3ec" />
+    <title>Bun &amp; Co. — Good food, good mood.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Good food, good mood.</span>
+      <span class="announcement-location">F-10, Islamabad <span aria-hidden="true">↗</span></span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Bun and Co home">
+        <span class="brand-mark" aria-hidden="true">B<span>&amp;</span></span>
+        <span class="brand-name">bun<span>&amp;</span>co.</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#menu">The menu</a>
+        <a href="#story">Our little corner</a>
+        <a class="nav-cta" href="#visit">Come say hi <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEW F-10 FAVOURITE</p>
+          <h1>Good food.<br />No <span class="scribble">big deal.</span></h1>
+          <p class="hero-description">
+            Proper burgers, crispy fries, and the kind of meal that makes your day a little better.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">See what’s cooking <span aria-hidden="true">↘</span></a>
+            <span class="hero-note"><span aria-hidden="true">✳</span> Made for the good days<br />and the hungry ones.</span>
+          </div>
+          <div class="hero-stamp" aria-label="Fresh, tasty, and made with care">
+            <span>FRESH</span><span class="stamp-star">✳</span><span>TASTY</span><span class="stamp-star">✳</span><span>HAPPY</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo" role="img" aria-label="Juicy cheeseburger with fresh lettuce and tomato"></div>
+          <div class="photo-label"><span class="label-spark">✳</span><span>Happiness<br />between buns</span></div>
+          <div class="hero-side-note">BITE INTO<br />SOMETHING<br />GOOD <span>↙</span></div>
+          <span class="hero-sun" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> SHORT MENU, BIG CRAVINGS</p>
+            <h2>The good stuff<span class="heading-period">.</span></h2>
+          </div>
+          <p class="section-intro">A few favourites. All the flavour.<br />That’s the whole idea.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-image burger-image" role="img" aria-label="Classic cheeseburger"></div>
+            <div class="menu-card-copy">
+              <div class="menu-title"><h3>The House Smash</h3><span class="price">Rs. 1,090</span></div>
+              <p>Double smashed beef, melty cheese, house sauce, soft toasted bun.</p>
+              <span class="menu-tag">THE CROWD FAVOURITE</span>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-image chicken-image" role="img" aria-label="Crispy fried chicken burger"></div>
+            <div class="menu-card-copy">
+              <div class="menu-title"><h3>Crispy Chick</h3><span class="price">Rs. 890</span></div>
+              <p>Crunchy chicken, cool slaw, pickles, and a little kick of sauce.</p>
+              <span class="menu-tag">CRUNCH TIME</span>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-image fries-image" role="img" aria-label="Loaded golden fries"></div>
+            <div class="menu-card-copy">
+              <div class="menu-title"><h3>Loaded Good Fries</h3><span class="price">Rs. 690</span></div>
+              <p>Golden fries under cheese sauce, house seasoning, and fresh herbs.</p>
+              <span class="menu-tag">MADE FOR SHARING</span>
+            </div>
+          </article>
+          <article class="menu-card menu-card-combo">
+            <div class="combo-art" aria-hidden="true"><span class="combo-burger">🍔</span><span class="combo-fries">🍟</span><span class="combo-drink">🥤</span></div>
+            <div class="menu-card-copy">
+              <div class="menu-title"><h3>The Good Mood Meal</h3><span class="price">Rs. 1,490</span></div>
+              <p>House Smash, regular fries, and a chilled drink. Sorted.</p>
+              <span class="menu-tag">A LITTLE BIT OF EVERYTHING</span>
+            </div>
+          </article>
+        </div>
+        <p class="menu-footnote">Prices in PKR. Come hungry; leave happy.</p>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="story-art">
+          <span class="story-star star-one" aria-hidden="true">✳</span>
+          <span class="story-star star-two" aria-hidden="true">✳</span>
+          <span class="story-note">A GOOD<br />BITE GOES<br />A LONG WAY.</span>
+          <div class="story-photo" role="img" aria-label="Friends sharing a relaxed meal"></div>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE ABOUT US</p>
+          <h2>Made for your<br />kind of <span class="scribble">everyday.</span></h2>
+          <p>
+            We’re a neighbourhood burger spot in F-10, here for lunch breaks, late cravings, and
+            “let’s get one more fries” moments. No fuss—just feel-good food made to hit the spot.
+          </p>
+          <a class="text-link" href="#visit">Find your way to us <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="visit-section" id="visit">
+        <div class="visit-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR TABLE’S WAITING</p>
+          <h2>See you in<br />the neighbourhood<span class="heading-period">.</span></h2>
+          <p>Good things are happening in F-10. Come through for a bite.</p>
+        </div>
+        <a
+          class="button button-light"
+          href="https://www.google.com/maps/search/?api=1&query=restaurants+F-10+Islamabad"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Find us in F-10 <span aria-hidden="true">↗</span></a>
+        <span class="visit-doodle" aria-hidden="true">✳</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home" aria-label="Bun and Co home">
+        <span class="brand-mark" aria-hidden="true">B<span>&amp;</span></span>
+        <span class="brand-name">bun<span>&amp;</span>co.</span>
+      </a>
+      <p>Good food, good mood. <span aria-hidden="true">✳</span> F-10, Islamabad</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
